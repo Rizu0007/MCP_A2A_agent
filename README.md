@@ -1,4 +1,4 @@
-<img width="964" height="936" alt="image" src="https://github.com/user-attachments/assets/adba0b94-7f53-4574-bbb4-9101d782cd8b" />
+<img width="664" height="436" alt="image" src="https://github.com/user-attachments/assets/adba0b94-7f53-4574-bbb4-9101d782cd8b" />
 
 # MCPA2A - Multi-Agent Communication Platform
 
