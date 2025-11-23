@@ -15,10 +15,10 @@ if project_root not in sys.path:
 # Import FastMCP from your local mcp.servers.fastmcp
 # -------------------------------------------------------------------
 try:
-    from mcp.servers.fastmcp import FastMCP
+    from mcp.servers.stdio_server import FastMCP
 except ModuleNotFoundError as e:
     print(f"[ERROR] Could not import FastMCP. Check your project structure.", file=sys.stderr)
-    print(f"Expected file: {project_root}/mcp/servers/fastmcp.py", file=sys.stderr)
+    print(f"Expected file: {project_root}/mcp/servers/stdio_server.py", file=sys.stderr)
     print(f"Current sys.path: {sys.path}", file=sys.stderr)
     raise e
 
@@ -40,7 +40,7 @@ mcp = FastMCP("Terminal Server", version="1.0.0")
 # -------------------------------------------------------------------
 # Default project directory
 # -------------------------------------------------------------------
-DEFAULT_PROJECT_DIR = os.path.abspath("C:/Users/eesha/Documents/mcp/MCP---A2A")
+DEFAULT_PROJECT_DIR = os.path.abspath("C:/Users/Documents/mcp/MCP---A2A")
 
 # -------------------------------------------------------------------
 # Tools

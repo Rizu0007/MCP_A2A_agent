@@ -2,9 +2,9 @@ from collections.abc import AsyncIterable
 import json
 from typing import Any
 from uuid import uuid4
-from utilities.a2a.agent_connect import AgentConnector
-from utilities.a2a.agent_discovery import AgentDiscovery
-from utilities.common.file_loader import load_instructions_file
+from core.a2a.agent_connect import AgentConnector
+from core.a2a.agent_discovery import AgentDiscovery
+from core.common.file_loader import load_instructions_file
 from google.adk.agents import LlmAgent
 from google.adk import Runner
 
@@ -17,7 +17,7 @@ from google.genai import types
 from rich import print as rprint
 from rich.syntax import Syntax
 
-from utilities.mcp.mcp_connect import MCPConnector
+from core.mcp.mcp_connect import MCPConnector
 
 from a2a.types import AgentCard
 

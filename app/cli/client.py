@@ -7,7 +7,7 @@ from a2a.types import (
 import asyncclick as click
 import httpx
 
-from utilities.a2a.agent_connect import AgentConnector
+from core.a2a.agent_connect import AgentConnector
 
 
 @click.command()

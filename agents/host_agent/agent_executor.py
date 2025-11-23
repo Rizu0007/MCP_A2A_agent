@@ -2,7 +2,7 @@ from a2a.server.agent_execution import AgentExecutor, RequestContext
 from a2a.server.events import EventQueue
 from a2a.server.tasks import TaskUpdater
 
-from agents.host_agent.agents import HostAgent
+from agents.host_agent.agent import HostAgent
 from a2a.utils import (
     new_task,
     new_agent_text_message

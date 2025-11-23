@@ -1,9 +1,9 @@
 {
   "mcpServers": {
     "terminal_server": {
-      "command": "C:\\Users\\eesha\\Documents\\mcp\\MCP---A2A\\venv\\Scripts\\python.exe",
+      "command": "C:\\Users\\Documents\\mcp\\MCP---A2A\\venv\\Scripts\\python.exe",
       "args": [
-        "C:\\Users\\eesha\\Documents\\mcp\\MCP---A2A\\mcp\\servers\\terminal_server\\terminal_server.py"
+        "C:\\Users\\Documents\\mcp\\MCP---A2A\\mcp\\servers\\terminal_server\\terminal_server.py"
       ]
   },
   "arithmetic_servers": {

@@ -1,6 +1,6 @@
 
 
-from utilities.common.file_loader import load_instructions_file
+from core.common.file_loader import load_instructions_file
 from collections.abc import AsyncIterable
 from google.adk.agents import LlmAgent
 from google.adk import Runner
