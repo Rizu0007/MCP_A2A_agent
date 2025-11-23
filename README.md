@@ -1,3 +1,5 @@
+<img width="964" height="936" alt="image" src="https://github.com/user-attachments/assets/adba0b94-7f53-4574-bbb4-9101d782cd8b" />
+
 # MCPA2A - Multi-Agent Communication Platform
 
 ## What Problem Does It Solve?
@@ -11,7 +13,6 @@ Modern AI systems need agents that can:
 - **A2A (Agent-to-Agent)** - For agent communication
 - **MCP (Model Context Protocol)** - For tool access
 
-![Architecture](docs/images/architecture.png)
 
 ## How It Works
 
